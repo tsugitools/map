@@ -64,7 +64,7 @@ $firstname = $USER->getFirstName();
 
 $OUTPUT->header();
 ?>
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=<?= $CFG->google_map_api_key ?>"></script>
 <script type="text/javascript">
 var map;
 
