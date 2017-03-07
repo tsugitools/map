@@ -1,5 +1,6 @@
 <?php
 
+
 $DATABASE_UNINSTALL = array(
 "drop table if exists {$CFG->dbprefix}context_map"
 );
