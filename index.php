@@ -130,6 +130,7 @@ other_points =
 </script>
 <?php
 $OUTPUT->bodyStart();
+$OUTPUT->topNav();
 if ( $display ) {
 ?>
 <div class="modal fade" id="prefs">
