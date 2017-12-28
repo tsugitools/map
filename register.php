@@ -7,6 +7,7 @@ $REGISTER_LTI2 = array(
 "description" => "This provides a simple Google map for a course
 where participants can indicate their location and control how
 much information they release to those viewing the map.",
+    "messages" => array("launch"),
     "privacy_level" => "public",  // anonymous, name_only, public
     "license" => "Apache",
     "languages" => array(
