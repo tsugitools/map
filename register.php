@@ -14,8 +14,8 @@ much information they release to those viewing the map.",
         "English"
     ),
     "source_url" => "https://github.com/tsugitools/map",
+    // For now Tsugi tools delegate this to /lti/store
     "placements" => array(
-        "course_navigation"
         /*
         "course_navigation", "homework_submission",
         "course_home_submission", "editor_button",
